@@ -1,0 +1,104 @@
+body {
+    font-family: "Prompt", sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #1a9bce, #08739d);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* search */
+.search-box {
+    padding: 20px;
+    text-align: center;
+    background: #f9fafc;
+}
+
+.search-box input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #218838;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    text-align: left;
+    width: 35%;
+    background: #f7f9fc;
+}
+
+.section-title {
+    background: #e3f2fd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.note {
+    color: #555;
+    font-size: 14px;
+}
+
+.btn-detail {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #4facfe;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-download:hover {
+    background: #2e8de6;
+}
+
+.footer {
+    background: #d291bc;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
