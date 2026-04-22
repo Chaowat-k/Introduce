@@ -24,35 +24,6 @@ body {
     margin: 0;
 }
 
-/* search */
-.search-box {
-    padding: 20px;
-    text-align: center;
-    background: #f9fafc;
-}
-
-.search-box input {
-    width: 60%;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-.search-box button {
-    padding: 10px 20px;
-    margin-left: 10px;
-    border: none;
-    background: #28a745;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.search-box button:hover {
-    background: #218838;
-}
-
-/* table */
 table {
     width: 100%;
     border-collapse: collapse;
